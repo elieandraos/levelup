@@ -1,10 +1,15 @@
 <template>
     <Slide @openMenu="handleOpenMenu" @closeMenu="handleCloseMenu">
         <ul class='sidebar-menu'>
-            <li class='header'>HR Department</li>
+            <li class='header'>Settings</li>
             <li>
-                <a href="#">
-                    <i class="fa fa-heartbeat" aria-hidden="true"></i> Insurances
+                <a href="/gamers">
+                    <i class="fa fa-gamepad" aria-hidden="true"></i> Gamers
+                </a>
+            </li>
+            <li>
+                <a href="/heroes">
+                    <i class="fa fa-heartbeat" aria-hidden="true"></i> Heroes
                 </a>
             </li>
         </ul>

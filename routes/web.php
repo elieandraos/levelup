@@ -17,4 +17,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::middleware(['auth'])->group(function () {
+    Route::get('/home', 'HomeController@index')->name('home');
+    Route::resource('gamers', 'GamersController')->only(['index']);
+    Route::resource('heroes', 'HerosController')->only(['index']);
+});
+
+

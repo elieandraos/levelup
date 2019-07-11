@@ -21,6 +21,11 @@ h6 {
 .required {
     color: #e3342f;
 }
+h3.title {
+    font-size: 1.575rem;
+    margin-bottom: 20px;
+    color: #a5a5a5;
+}
 /** Lists **/
 ul {
 	padding: 0;
@@ -65,10 +70,6 @@ table.table {
     padding-right: 5px;
     padding-left: 5px;
     white-space:nowrap;
-}
-.table tr td a {
-    padding: 0.5rem;
-    display: block;
 }
 .table.in-card tr td {
     padding: 0.5rem;

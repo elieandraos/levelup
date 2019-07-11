@@ -15,7 +15,7 @@ class HerosTableSeeder extends Seeder
     {
         factory(Hero::class)->create([
             'name' => 'Abaddon',
-            'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+            'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/2/26/Abaddon_icon.png',
         ]);
 
         // @asha: uncomment the below 3 lines and replace with new values
