@@ -1,0 +1,8 @@
+Your Steam Web API Key
+Key: 4A787C9A612DAEEDEA6313163BFE9FC4
+
+Domain Name: https://github.com/elieandraos/levelup
+
+this is the key that will be used For all the steamApis :
+
+Example: http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=440&key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&steamid=76561197972495328
