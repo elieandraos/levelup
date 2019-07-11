@@ -4,7 +4,7 @@
             <li class='header'>LANS</li>
             <li>
                 <a href="/lans">
-                    <i class="fa fa-trophy" aria-hidden="true"></i> All Lans
+                    <i class="fa fa-trophy" aria-hidden="true"></i> Lans History
                 </a>
             </li>
             <li class='header'>Settings</li>
