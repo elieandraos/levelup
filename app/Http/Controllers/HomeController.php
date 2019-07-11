@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Gamer;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -13,6 +14,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $gamers = Gamer::orderBy('name', 'ASC')->get()->pluck('name', 'id')->toArray();
+        return view('home', ['gamers' => $gamers]);
     }
 }

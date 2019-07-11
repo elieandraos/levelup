@@ -1,7 +1,10 @@
 <template>
     <div class="card">
         <div class="card-header text-dark" v-if="title">
-            <i v-if="icon" :class="icon"></i> {{  title }}
+            <i v-if="icon" :class="icon"></i> 
+            {{  title }}
+            <span v-if="date" class="date">{{ date }}</span>
+            
             <slot name="header">
 
             </slot>
@@ -22,6 +25,9 @@
             },
             icon: {
                 required: false
+            },
+            date: {
+                required: false
             }
         }
     }
@@ -36,7 +42,6 @@
     .card .card-header {
         color: #555555;
         font-family: Roboto Condensed;
-        text-transform: capitalize;
         font-size: 32px;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -46,5 +51,11 @@
         font-size: 20px;
         background-color: #FFF;
         border-bottom: none;
+    }
+
+    .date {
+        color: #c7c7c7;
+        font-size: 20px;
+        margin-left: 10px;
     }
 </style>

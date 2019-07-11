@@ -1,6 +1,12 @@
 <template>
     <Slide @openMenu="handleOpenMenu" @closeMenu="handleCloseMenu">
         <ul class='sidebar-menu'>
+            <li class='header'>LANS</li>
+            <li>
+                <a href="/lans">
+                    <i class="fa fa-trophy" aria-hidden="true"></i> All Lans
+                </a>
+            </li>
             <li class='header'>Settings</li>
             <li>
                 <a href="/gamers">

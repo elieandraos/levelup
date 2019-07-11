@@ -1,15 +1,13 @@
 <template>
     <nav class="navbar navbar-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">
-<!--                <img src="/images/level-up-logo.png" style="height: 40px;" />-->
+            <a class="navbar-brand" href="/home">
                 LEVEL UP LANS
             </a>
 
             <!-- Right Side Of Navbar -->
             <div class="pull-right">
                 <ul class="navbar-nav ml-auto">
-<!--                    <li class="nav-item"><a href="javascript:void(0)">{{ name }}</a></li>-->
                     <li class="nav-item">
                         <a href="#" @click="doLogout">Logout</a>
                         <form id="logout-form" action="/logout" method="POST" style="display: none;">

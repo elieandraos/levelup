@@ -6,7 +6,9 @@
         <div class="col-md-12">
             <card>
                 <div slot="content">
-                    Yes I am here.
+                    <lan-creator
+                        :gamers="{{ json_encode($gamers) }}"
+                    ></lan-creator>
                 </div>
             </card>
         </div>

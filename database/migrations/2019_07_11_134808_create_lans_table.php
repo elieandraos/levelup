@@ -15,7 +15,6 @@ class CreateLansTable extends Migration
     {
         Schema::create('lans', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
             $table->date('started_at');
             $table->timestamps();
         });
