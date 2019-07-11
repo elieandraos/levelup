@@ -1,0 +1,206 @@
+html body{
+    font-family: "Lato", sans-serif;
+    font-size: 0.8725rem;
+    color: #4e566d;
+    line-height: 1.6;
+    background-color: #f4f5f6;
+    font-weight: 300;
+}
+.link {
+    color: #55b8e5 !important;
+    cursor: pointer;
+    font-weight: 400;
+}
+a:hover {
+    text-decoration: none;
+}
+h6 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.required {
+    color: #e3342f;
+}
+/** Lists **/
+ul {
+	padding: 0;
+	margin: 0;
+}
+ul li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+/** Tables **/
+table.table {
+    table-layout:fixed;
+    min-width: 100% !important;
+}
+.table thead tr,
+.table thead tr:hover {
+    background-color: #f5f9fc;
+}
+.table tr:hover{
+    background-color: #f9f9f9;
+}
+.table thead tr th {
+    padding: 0.5rem;
+    border: none;
+    font-size: 0.81rem;
+    white-space: nowrap;
+}
+.table thead tr th.th-xs,
+.table tr td.td-xs  {
+    width: 4%;
+    text-align: center;
+    padding-top: 6px;
+}
+.table thead tr th.th-md,
+.table tr td.td-md  {
+    width: 15%;
+    text-align: left;
+}
+.table tr td {
+    padding: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    white-space:nowrap;
+}
+.table tr td a {
+    padding: 0.5rem;
+    display: block;
+}
+.table.in-card tr td {
+    padding: 0.5rem;
+}
+
+/** flex columns **/
+div.flex-cols {
+    display: flex;
+}
+div.flex-cols div.flex-column {
+    flex: 1 1 50%;
+}
+div.flex-cols div.flex-column div.flex-row {
+    position: relative;
+    display: flex;
+}
+div.flex-cols div.flex-column .flex-row .label {
+    flex: 0 0 150px;
+    padding: 2px 5px 2px 0px;
+    color: #697386;
+    line-height: 1.6;
+    overflow: visible;
+    word-break: break-word;
+    white-space: normal;
+}
+div.flex-cols div.flex-column .flex-row .value {
+    flex: 1 1 auto;
+    padding: 2px 20px 2px 5px;
+    color: #2b2d50;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+/** Utility classes **/
+.hidden{
+    display: none;
+}
+.text-color-dark {
+    color: #2b2d50 !important;
+}
+.text-fontsize-15 {
+    font-size: 0.9375rem !important;
+}
+.text-font-400{
+    font-weight: 400 !important;
+}
+.auto {
+    width: auto !important;
+}
+.pointer {
+    cursor: pointer;
+}
+.mr-2 {
+    margin-right: 2rem;
+}
+.mr-3 {
+    margin-right: 3rem;
+}
+.mr-4 {
+    margin-right: 4rem;
+}
+.mt-2 {
+    margin-top: 2rem !important;
+}
+.mt-3 {
+    margin-top: 3rem;
+}
+.mt-4 {
+    margin-top: 4rem;
+}
+.text-danger,
+a.text-danger{
+    color: #e3342f;
+}
+
+/** Buttons **/
+.btn {
+    padding: 0.305rem 1.05rem;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.list-actions{
+    margin-bottom: 15px;
+}
+.btn-action{
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgba(43,45,80,.1), 0 2px 5px 0 rgba(43,45,80,.08), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08);
+    opacity: .99;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: 400;
+    color: #4e566d;
+    font-size: 12px; 
+}
+.btn-action i {
+    margin-right: 6px;
+}
+.btn-action:hover, .btn-action:focus {
+    box-shadow: 0 0 0 1px rgba(43,45,80,.1), 0 2px 5px 0 rgba(43,45,80,.08), 0 3px 3.5px 0 rgba(0,0,0,.07), 0 2px 4px 0 rgba(0,0,0,.08);
+    color: #2b2d50;
+}
+.btn-orange, .btn-orange:hover {
+    background-color: #f4a236;
+    color: #FFF;
+}
+
+/** Others **/
+::placeholder{
+    color: #CCC !important;
+    font-weight: normal;
+    opacity: 1; /* Firefox */
+    font-weight: 200;
+    font-size: 13px;
+}
+div.form-group textarea.form-control{
+    padding: .8125rem;
+    line-height: 1.6;
+    height: 8rem;
+}
+/** Single autocomplete **/
+.form-group input.form-control.selected {
+    border: none;
+    padding: 0;
+}
+
+/** insurance page **/
+.status {
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 3px 10px;
+    color: #FFF
+}

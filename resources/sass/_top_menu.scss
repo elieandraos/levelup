@@ -1,0 +1,38 @@
+.navbar-top {
+    background-color: $blue;
+    color: #FFF;
+    margin-bottom: 40px;
+}
+.navbar-top a{
+    color: #FFF;
+}
+.navbar-top li {
+    margin-bottom: 0;
+}
+.navbar-top li.nav-item a {
+    color: #FFF;
+    display: inline-block;
+    padding: 6px 12px;
+    height: 32px;
+    font-size: 14px;
+    vertical-align: top;
+    white-space: nowrap;
+    border-radius: 6px;
+}
+.navbar-top li.nav-item a:hover{
+	text-decoration: none;
+	background: rgba(0, 0, 0, .1);
+}
+
+.navbar-top ul.navbar-nav
+{
+    display: inherit;
+    flex-direction: inherit;
+}
+
+.navbar-top ul.navbar-nav li {
+    display: inline;
+}
+a.navbar-brand{
+    margin-left: 60px;
+}

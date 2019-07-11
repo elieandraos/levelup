@@ -1,0 +1,25 @@
+.vue-tags-input {
+	max-width: 100% !important;
+}
+.vue-tags-input div.input {
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+}
+
+.vue-tags-input input {
+	font-size: 0.9rem;
+	font-weight: 200;
+}
+
+.vue-tags-input .input li.tag {
+	border-radius: 5px;
+}
+
+.vue-tags-input .autocomplete li{
+	margin-bottom: 2px;
+}
+
+.vue-tags-input .input li.tag, 
+.vue-tags-input .autocomplete li.selected-item {
+	background-color: #55b8e5;
+}

@@ -1,0 +1,124 @@
+.form-group label{
+    font-weight: 400;
+}
+.form-group label,
+.form-group .input-container {
+    padding-left: 0;
+}
+.form-group input.form-control, 
+.form-group textarea.form-control{
+    line-height: 2.375rem;
+    min-height: 2.375rem;
+    position: relative;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    background: #fff;
+    padding: 0 .8125rem;
+    box-shadow: none;
+    font-weight: 200;
+}
+.form-group .form-control:focus,
+.has-error.form-group .form-control:focus{
+	outline: 0 !important;
+	background: #fff !important;
+    border: 1px solid #e8e8e8;
+}
+
+span.help-block{
+    font-size: 0.8125rem;
+}
+.has-error span.help-block{
+    color: $red;
+}
+
+/** input group  **/
+.input-group > .input-group-prepend > .input-group-text {
+    border: none;
+    font-size: 0.75rem;
+    font-weight: 200;
+    color: #a1a1a1;
+}
+
+/** select box **/
+select.form-control {
+    font-weight: 200;
+    font-size: 13px !important;
+    border-color: #e8e8e8 !important;
+}
+select.form-control:focus{
+    box-shadow: none !important;
+    border-color: #e8e8e8 !important;
+}
+/** Pretty checkbox **/
+.pretty .state label:before{
+    border-color: #e8e8e8;
+}
+.pretty .state label {
+    font-weight: 300;
+}
+/** End Of Pretty checkbox **/
+
+/** Bootstrap select customization **/
+div.form-group .bootstrap-select{
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    background: #fff;
+}
+div.form-group .bootstrap-select button,
+div.form-group .bootstrap-select button:hover,
+div.form-group .bootstrap-select button:active,
+div.form-group .bootstrap-select button:focus{
+    border: none;
+    background-color: #FFF !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+div.bootstrap-select .dropdown-menu > li > a{
+    font-weight: 300;
+}
+div.bootstrap-select .dropdown-menu > li > a > span.fa{
+    color: #4b6372;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 15px;
+}
+div.bootstrap-select button.btn-default{
+    font-weight: 300;
+    color: #4b6372;
+}
+div.bootstrap-select .dropdown-menu > li > a{
+    outline: 0 !important;
+}
+
+div.bootstrap-select .dropdown-menu > .active > a,
+div.bootstrap-select .dropdown-menu > .active > a:hover,
+div.bootstrap-select .dropdown-menu > .active > a:focus{
+    background-color: #3a547c;
+    color: #FFF;
+    outline: 0 !important;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{
+    font-size: 13px !important;
+    color: #4b6372 !important;
+}
+.bootstrap-select .filter-option-inner-inner{
+    font-weight: 200 !important;
+}
+/** End of bootsrap select customization **/
+
+/** bootsrap select customization **/
+.datepicker.datepicker-dropdown
+{
+    padding: 10px 20px;
+}
+
+.table-condensed > thead > tr > th, 
+.table-condensed > thead > tr > td, 
+.table-condensed > tbody > tr > th, 
+.table-condensed > tbody > tr > td, 
+.table-condensed > tfoot > tr > th, 
+.table-condensed > tfoot > tr > td
+{
+    padding: 5px;
+}
+/** End of bootsrap select customization **/

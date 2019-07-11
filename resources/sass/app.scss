@@ -1,8 +1,37 @@
+
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// Fontawesome
+@import "~font-awesome/scss/font-awesome";
+
+// Pretty checkbox
+@import '~pretty-checkbox/src/pretty-checkbox.scss';
+
+// Datepicker
+@import '~pc-bootstrap4-datetimepicker/build/css/bootstrap-datetimepicker.css';
+
+// Bootstrap select
+@import "~bootstrap-select/sass/bootstrap-select";
+
+// bootstrap datepicker
+@import "~bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css";
+
+// Custom Bootstrap
+@import 'common';
+@import 'form_group';
+
+// Custom vue components
+@import 'top_menu';
+@import 'side_menu';
+@import 'modal';
+@import 'autocomplete';
+@import 'card';
