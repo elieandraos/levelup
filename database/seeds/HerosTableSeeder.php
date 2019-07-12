@@ -220,131 +220,212 @@ class HerosTableSeeder extends Seeder
          'name' => 'Medusa',
           'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/c/cc/Medusa_icon.png?version=3d9ae4d87d7dd18473b0077c6d51d3d3',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Meepo',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/8/85/Meepo_icon.png?version=06970686c2620e4899376b9ee7e17d47',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Mirana',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/1/12/Mirana_icon.png?version=a80affcf57d37d4fe5d898cd7e3f4e0a',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Monkey King',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/7/7b/Monkey_King_icon.png?version=abe10431bbc2211c3e4f931534bd3d27',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Morphling',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/7/7b/Morphling_icon.png?version=d1015dea93a88152e3fef62e9b64ad6e',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Naga Siren',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/6/60/Naga_Siren_icon.png?version=a64bc31b30d125ba993f6498b68f9a0b',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Natures Prophet',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/c/c4/Nature%27s_Prophet_icon.png?version=3d5a7a42e57a7e43f058e8d0874cda03',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Necrophos',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/a/a6/Necrophos_icon.png?version=ddc8b2eab62f4e578045623bfc74bd0b',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Night Stalker',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/1/15/Night_Stalker_icon.png?version=89360dbfb748a26ff50bcb475feb9d5b',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Nyx Assassain',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/f/fa/Nyx_Assassin_icon.png?version=82c807740fa60d9ab486e0bf0e4153c2',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Ogre Magi',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/e/e0/Ogre_Magi_icon.png?version=3fa5ac15939733f3cfddc00aba633795',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Omni Knight',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/e/e2/Omniknight_icon.png?version=69fb42b317ef5d5495fd566090baec8f',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Oracle',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/7/72/Oracle_icon.png?version=50cfbd6e98b026808a9f8ad253605cfa',
+       ]);  factory(Hero::class)->create([
+         'name' => 'OutWorld Devourer',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/9/99/Outworld_Devourer_icon.png?version=bb656970d69f3027d26943bc24b03610',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Pangolier',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/4/4e/Pangolier_icon.png?version=0ca9284b8283c2fbd8550b2be5fd9c3a',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Phantom Assassin',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/8/8e/Phantom_Assassin_icon.png?version=fcf1444e78efa7c35c74f98e934c271d',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Phantom Lancer',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/8/81/Phantom_Lancer_icon.png?version=a78af53d50a56dff0aede90622eb3511',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Phoenix',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/1/14/Phoenix_icon.png?version=db8f4ec5840022a97ce532d138af8f13',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Puck',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/1/13/Puck_icon.png?version=07290c7498433bde0a87c330a51081c1',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Pudge',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/c/c0/Pudge_icon.png?version=fee1223645079c94aacce19357e9a416',
+       ]);  factory(Hero::class)->create([
+         'name' => 'Pugna',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/c/cd/Pugna_icon.png?version=6e8e11c6c2013546664a8251d52e0e97',
        ]);  factory(Hero::class)->create([
          'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/a/a1/Queen_of_Pain_icon.png?version=d223991a573549d25a93703234869960',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Razor',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/6/66/Razor_icon.png?version=0146a218be9881bb9d75b19ed14d35be',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Riki',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/7/7d/Riki_icon.png?version=85a963fecc5bdfc702aa22d6314eb728',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Rubick',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/8/8a/Rubick_icon.png?version=069f44c919f07acd1dec09aa71330568',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Sand King',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/7/79/Sand_King_icon.png?version=eda0d31413598822d2190b790f56a0a5',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Shadow Demon',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/f/f3/Shadow_Demon_icon.png?version=d4f43f79f2752f89c5d1177dae20c2d2',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Shadow Fiend',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/3/36/Shadow_Fiend_icon.png?version=aead4589c97b4c486ca808225004b114',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Shadow Shaman',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/9/96/Shadow_Shaman_icon.png?version=412ef19dc4b14ec00e5be48a2f3ffa58',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Silencer',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/9/9f/Silencer_icon.png?version=987250b53e9d354e7385f2b30263730d',
+       ]); 
+        factory(Hero::class)->create([
+         'name' => 'Skeleton King',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/0/07/Skeleton_King_icon.png?version=6d76e858913091130867d09ddbb83a71',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Skywrath Mage',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/b/bf/Skywrath_Mage_icon.png?version=e80bcf3140a08fd474e4ae959c68b5bd',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Slardar',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/7/7e/Slardar_icon.png?version=a47d98fe72c0976d67582f3bc223c069',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Slark',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/a/aa/Slark_icon.png?version=18b68c91671452beab47ca1813e1366e',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Sniper',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/5/51/Sniper_icon.png?version=6429ecb9ebbc59abed6b846ac0af6f0d',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Spectre',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/f/ff/Spectre_icon.png?version=8af2c21961605d25cfa1be31725d7422',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Spirit Breaker',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/d/df/Spirit_Breaker_icon.png?version=166d65dd74ef0676fd3a12d1a1504e5d',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Templar Assassin',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/9/9c/Templar_Assassin_icon.png?version=e531fd05354743719c1b8dd48dc108d5',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Techies',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/f/fa/Techies_icon.png?version=156b828f72a516c4327906e03e0c3a0e',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Sven',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/1/1b/Sven_icon.png?version=6afeb3577b8d3e602f7b9cc769cd0be6',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Storm Spirit',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/1/13/Storm_Spirit_icon.png?version=c9eb4d9152a61c7663cefaa20bc1a8e8',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Terror Blade',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/5/52/Terrorblade_icon.png?version=77a3768fe6b0ad17bb407b12d6479d1d',
        ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
-       ]);  factory(Hero::class)->create([
-         'name' => 'Abaddon',
-          'avatar' => 'https://dota2.gamepedia.com/File:Abaddon_icon.png',
+         'name' => 'Tidehunter',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/d/d5/Tidehunter_icon.png?version=72d689d15e1011f9668c546af5f19f00',
+       ]);
+         factory(Hero::class)->create([
+         'name' => 'Timbersaw',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/9/9a/Timbersaw_icon.png?version=8cdae5ee791dccd7b4dd8cf5db327bdd',
+       ]);
+         factory(Hero::class)->create([
+         'name' => 'Tinker',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/d/d1/Tinker_icon.png?version=e904d8e318ae448d4639a6ca85303fe6',
+       ]);
+         factory(Hero::class)->create([
+         'name' => 'Tusk',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/c/ce/Tusk_icon.png?version=147fb449a87e1067c85f21f186132092',
+       ]);
+         factory(Hero::class)->create([
+         'name' => 'Troll',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/f/f0/Troll_Warlord_icon.png?version=43c7aadede7bd18591b0c6dbb7dbd027',
+       ]);
+         factory(Hero::class)->create([
+         'name' => 'Treant Protector',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/3/3f/Treant_Protector_icon.png?version=d4d85450f31c83aea8266dfd419b70d7',
+       ]);
+         factory(Hero::class)->create([
+         'name' => 'Tiny',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/5/55/Tiny_icon.png?version=042adfa9c45fb68093cc6fb4cbe06ea8',
+       ]);
+         factory(Hero::class)->create([
+         'name' => 'Underlord',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/1/18/Underlord_icon.png?version=608e265d917a1cb3ecbdb479ca17cfe9',
+       ]);
+         factory(Hero::class)->create([
+         'name' => 'Venomancer',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/2/25/Venomancer_icon.png?version=52d85a454dde46581873c15b7a072237',
+       ]);
+         factory(Hero::class)->create([
+         'name' => 'Undying',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/6/61/Undying_icon.png?version=60d8f84491097a3128b7bb2a3de26bf7',
+       ]);
+         factory(Hero::class)->create([
+         'name' => 'Viper',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/5/5f/Viper_icon.png?version=2a8187ea6747e352093e1e54bc2606ff',
+       ]);
+                 factory(Hero::class)->create([
+         'name' => 'Ursa',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/4/40/Ursa_icon.png?version=6a015dc9739ae708a62230a0cea9ffa6',
+       ]);
+                 factory(Hero::class)->create([
+         'name' => 'Visage',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/9/9e/Visage_icon.png?version=737c2387430a431a85ffd08b7252fb6e',
+       ]);
+                 factory(Hero::class)->create([
+         'name' => 'Vengeful Spirit',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/2/20/Vengeful_Spirit_icon.png?version=f7b24acba1c0bf726248ca1dd4620c7c',
+       ]);
+                 factory(Hero::class)->create([
+         'name' => 'Warlock',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/3/3f/Warlock_icon.png?version=553c91bae27fe106872f09f7c5da3878',
+       ]);
+                 factory(Hero::class)->create([
+         'name' => 'Weaver',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/0/09/Weaver_icon.png?version=09f9240a75d1045d5d403385c61db35c',
+       ]);
+                 factory(Hero::class)->create([
+         'name' => 'Windranger',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/6/60/Windranger_icon.png?version=85593ee15f958babcf2f2d1ceb7a3940',
+       ]);
+                 factory(Hero::class)->create([
+         'name' => 'Winter Wyvern',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/4/4a/Winter_Wyvern_icon.png?version=708c1aac73eef23b9b9183d47484e7b2',
+       ]);
+                 factory(Hero::class)->create([
+         'name' => 'Witch Doctor',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/3/33/Witch_Doctor_icon.png?version=73b2ab9afd2990f49faf54f4e8bd66aa',
+       ]);
+                 factory(Hero::class)->create([
+         'name' => 'Zeus',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/3/3f/Zeus_icon.png?version=f80d75c5a638f7d875e49dc179b5143b',
+       ]);
+                 factory(Hero::class)->create([
+         'name' => 'Wraith King',
+          'avatar' => 'https://gamepedia.cursecdn.com/dota2_gamepedia/1/1e/Wraith_King_icon.png?version=52212107e602b6a17dfc1d7515086216',
        ]);
     }
 }
