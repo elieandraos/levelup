@@ -4,27 +4,23 @@
     <div class="row">
         <div class="col-md-12">
             <h3 class="title">HEROES</h3>
-            <card>
-                <div slot="content">
-                    <div id="listing" class="wrapper">
-                        <table class='table in-card'>
-                            <thead>
+        </div>
+
+        @foreach($heroes as $hero)
+            <div class="col-md-3">
+                <card class="heroes identity">
+                    <div slot="content">
+                        <table>
                             <tr>
-                                <th class="td-md">Avatar</th>
-                                <th>Name</th>
+                                <td class="image"><img src="{!! $hero->avatar !!}"></td>
+                                <td>
+                                    <h6>{!! $hero->name !!}</h6>
+                                    Games played: <strong>0</strong>
+                                </td>
                             </tr>
-                            </thead>
-                            @foreach ($heroes as $hero)
-                                <tr>
-                                    <td class="td-md">
-                                        <img src="{!! $hero->avatar !!}" style="width: 80px">
-                                    </td>
-                                    <td>{!! $hero->name !!}</td>
-                                </tr>
-                            @endforeach
                         </table>
                     </div>
-            </card>
-        </div>
-    </div>
+                </card>
+            </div>
+        @endforeach
 @endsection
