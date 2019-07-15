@@ -48,6 +48,20 @@ class GamersTableSeeder extends Seeder
         ]);
 
         factory(Gamer::class)->create([
+            'name' => 'Assad Sacca',
+            'nickname' => '@ss',
+            'avatar' => '',
+            'steam_id' => '',
+        ]);
+
+        factory(Gamer::class)->create([
+            'name' => 'Daniel Bou Maachar',
+            'nickname' => 'Toxic Danzi',
+            'avatar' => '',
+            'steam_id' => '',
+        ]);
+
+        factory(Gamer::class)->create([
             'name' => 'Elie-Georges Hatem',
             'nickname' => 'EGG',
             'avatar' => '',
@@ -88,5 +102,41 @@ class GamersTableSeeder extends Seeder
             'avatar' => '',
             'steam_id' => '',
         ]);
+
+        factory(Gamer::class)->create([
+            'name' => 'Patrick Achkar',
+            'nickname' => 'King Patz',
+            'avatar' => '',
+            'steam_id' => '',
+        ]);
+
+        factory(Gamer::class)->create([
+            'name' => 'Patrick Rayess',
+            'nickname' => 'P.P.P',
+            'avatar' => '',
+            'steam_id' => '',
+        ]);
+
+        factory(Gamer::class)->create([
+            'name' => 'Romero Habib',
+            'nickname' => 'Romzilla',
+            'avatar' => '',
+            'steam_id' => '',
+        ]);
+
+        factory(Gamer::class)->create([
+            'name' => 'Toufic Ghanem',
+            'nickname' => 'ETTOTO69',
+            'avatar' => '',
+            'steam_id' => '',
+        ]);
+
+        factory(Gamer::class)->create([
+            'name' => 'Fouad',
+            'nickname' => 'Mango Wofl',
+            'avatar' => '',
+            'steam_id' => '',
+        ]);
+
     }
 }
