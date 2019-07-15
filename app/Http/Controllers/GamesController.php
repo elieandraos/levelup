@@ -6,6 +6,7 @@ use App\Models\Lan;
 use App\Models\Game;
 use App\Models\Hero;
 use App\Models\Team;
+use App\Models\Player;
 use App\Models\GameStats;
 use Illuminate\Http\Request;
 use App\Http\Requests\CreateGameRequest;
