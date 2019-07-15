@@ -2,7 +2,7 @@
     <nav class="navbar navbar-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="/home">
-                LEVEL UP LANS
+                LeveL Up
             </a>
 
             <!-- Right Side Of Navbar -->

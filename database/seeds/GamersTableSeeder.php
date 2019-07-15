@@ -83,7 +83,7 @@ class GamersTableSeeder extends Seeder
         ]);
 
         factory(Gamer::class)->create([
-            'name' => 'Jean-Louis Jammous',
+            'name' => 'Jean-Louis Jamous',
             'nickname' => 'J-Brother',
             'avatar' => '',
             'steam_id' => '',

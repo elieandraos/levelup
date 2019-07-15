@@ -29,4 +29,14 @@ class Lan extends Model
     {
     	return Carbon::parse($this->started_at)->format('d-M-Y');
     }
+
+    public function getTeamOneAttribute()
+    {
+        return $this->teams[0];
+    }
+
+    public function getTeamTwoAttribute()
+    {
+        return $this->teams[1];
+    }
 }

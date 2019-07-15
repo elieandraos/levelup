@@ -5,8 +5,12 @@
         <div class="col-md-12">
             <h3 class="title">LANS</h3>
             @foreach ($lans as $lan)
-            <card title="{!! $lan->title !!}" date="{!! $lan->human_date !!}">
-            	
+            <card 
+                title="{!! $lan->title !!}" 
+                date="{!! $lan->human_date !!}" 
+                button-link="{!! route('games.create', $lan->id)!!}" 
+                button-value="Add New Game"
+            >
                 <div slot="content">
                 	<div class="col-md-8">
                 		

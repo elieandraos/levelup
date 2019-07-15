@@ -5,6 +5,9 @@
             {{  title }}
             <span v-if="date" class="date">{{ date }}</span>
             
+            <a :href="buttonLink" class="btn btn-success card-header-button" v-if="buttonLink">
+                <i class="fa fa-plus-circle" aria-hidden="true"></i> {{ buttonValue }}
+            </a>
             <slot name="header">
 
             </slot>
@@ -27,6 +30,12 @@
                 required: false
             },
             date: {
+                required: false
+            },
+            buttonLink: {
+                required: false
+            },
+            buttonValue: {
                 required: false
             }
         }
@@ -57,5 +66,15 @@
         color: #c7c7c7;
         font-size: 20px;
         margin-left: 10px;
+    }
+
+    .card-header-button {
+        float: right;
+        margin-right: 20px;
+        color: #FFF;
+    }
+
+    .card-header-button .fa {
+        color: #FFF;
     }
 </style>

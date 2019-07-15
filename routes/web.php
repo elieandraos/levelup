@@ -18,10 +18,13 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::middleware(['auth'])->group(function () {
-    Route::get('/home', 'HomeController@index')->name('home');
+    Route::get('home', 'HomeController@index')->name('home');
     Route::resource('gamers', 'GamersController')->only(['index']);
     Route::resource('heroes', 'HerosController')->only(['index']);
     Route::resource('lans', 'LansController')->only(['index', 'store']);
+    
+    Route::get('lan/{lan}/games/create', 'GamesController@create')->name('games.create');
+    Route::post('lan/{lan}/games/store', 'GamesController@store')->name('games.store');
 });
 
 
