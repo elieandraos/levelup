@@ -39,6 +39,8 @@ class GamesController extends Controller
 
     	$stats = [];
     	foreach($request->player_id as $key => $playerId) {
+            $player = Player::findOrFail($playerId);
+
     		$stats[] = new GameStats([
     			'kills' => $request->get('kills')[$key],
 		        'deaths' => $request->get('deaths')[$key],
