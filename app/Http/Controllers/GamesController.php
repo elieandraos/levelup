@@ -48,7 +48,7 @@ class GamesController extends Controller
 		        'assists' => $request->get('assists')[$key],
 		        'kda' =>  ($request->get('kills')[$key] + $request->get('assists')[$key]) / $request->get('deaths')[$key],
 		        'is_winner' => ($game->winner_team_id == $player->team_id) ? 1 : 0,
-		        'hero_id' => $request->get('kills')[$key],
+		        'hero_id' => $request->get('hero_id')[$key],
 		        'player_id' => $playerId,
 		        'lan_id' => $lan->id
     		]);
