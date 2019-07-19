@@ -39,4 +39,14 @@ class Lan extends Model
     {
         return $this->teams[1];
     }
+
+    public function getTeamOneScoreAttribute()
+    {
+        return $this->teamOne->teamOneGames()->where('winner_team_id', '=', $this->teamOne->id)->count();
+    }
+
+    public function getTeamTwoScoreAttribute()
+    {
+        return $this->teamTwo->teamTwoGames()->where('winner_team_id', '=', $this->teamTwo->id)->count();
+    }
 }

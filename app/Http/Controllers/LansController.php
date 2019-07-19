@@ -12,7 +12,7 @@ class LansController extends Controller
 {
     public function index()
     {
-    	$lans = Lan::with('teams')->whereHas('teams')->get();
+    	$lans = Lan::with('teams')->whereHas('teams')->orderBy('started_at', 'DESC')->get();
     	return view('lans.index', ['lans' => $lans]);
 
     }
