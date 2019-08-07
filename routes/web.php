@@ -22,9 +22,10 @@ Route::middleware(['auth'])->group(function () {
     Route::resource('gamers', 'GamersController')->only(['index']);
     Route::resource('heroes', 'HerosController')->only(['index']);
     Route::resource('lans', 'LansController')->only(['index', 'store']);
-    
+
     Route::get('lan/{lan}/games/create', 'GamesController@create')->name('games.create');
     Route::post('lan/{lan}/games/store', 'GamesController@store')->name('games.store');
+    Route::get('lan/{lan}/games', 'GamesController@index')->name('lan.games');
 });
 
 

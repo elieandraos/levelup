@@ -198,10 +198,19 @@ div.form-group textarea.form-control{
     padding: 0;
 }
 
-/** insurance page **/
+/** status **/
 .status {
     text-transform: uppercase;
     font-weight: 400;
     padding: 3px 10px;
     color: #FFF
+}
+
+/** Lan history **/
+.trophy {
+    font-size: 72px;
+    display: block;
+    margin-top: 20px;
+    color: #1d9d74;
+    opacity: 0.75;
 }

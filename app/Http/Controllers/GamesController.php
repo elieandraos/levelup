@@ -2,13 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\GameResource;
 use App\Models\Lan;
 use App\Models\Game;
 use App\Models\Hero;
-use App\Models\Team;
 use App\Models\Player;
 use App\Models\GameStats;
-use Illuminate\Http\Request;
 use App\Http\Requests\CreateGameRequest;
 
 class GamesController extends Controller
@@ -16,7 +15,13 @@ class GamesController extends Controller
 	public function __construct(){
 		$this->heros = Hero::orderBy('name', 'ASC')->pluck('name', 'id')->toArray();
 	}
-    
+
+	public function index(Lan $lan)
+    {
+        $games = $lan->teamOne->teamOneGames()->orderBy('created_at', 'ASC')->get();
+        return GameResource::collection($games);
+    }
+
     public function create(Lan $lan)
     {
     	$teams = $lan->teams->pluck('name', 'id')->toArray();

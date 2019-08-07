@@ -27,16 +27,16 @@
                             @endforeach
                     	</div>
                         <div class="col-md-3">
-                            <lan-games lan-id="{!! $lan->id !!}"></lan-games>
+                            <lan-games fetch-url="{!! route('lan.games', $lan->id) !!}"></lan-games>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 text-center">
                             <h5 class="@if($lan->team_one_score < $lan->team_two_score) text-danger @else text-success @endif d-inline px-2">
                                 {!! $lan->teamOne->name !!} {!! $lan->team_one_score !!}</h5>
                             </h5>
                             <h5 class="@if($lan->team_two_score < $lan->team_one_score) text-danger @else text-success @endif d-inline px-2">
                                 {!! $lan->teamTwo->name !!} {!! $lan->team_two_score !!}
                             </h5>
-
+                            <i class="fa fa-trophy trophy"></i>
                         </div>
                     </div>
                 </div>
